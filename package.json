@@ -1,0 +1,23 @@
+{
+  "name": "drum-machine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IIngaV/drum-machine.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IIngaV/drum-machine/issues"
+  },
+  "homepage": "https://github.com/IIngaV/drum-machine#readme",
+  "dependencies": {
+    "http-server": "^0.10.0"
+  }
+}
