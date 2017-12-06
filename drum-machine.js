@@ -46,7 +46,8 @@ finishRecording.onclick = function finishRecording(){
   alert("запись закончена");
   count=0;
   var s = JSON.stringify(sounds);
-  alert(s);
+  window.localStorage.setItem("Drum",s);
+  alert(window.localStorage.getItem("Drum"));
   return count;
 }
 playRecording.onclick = function playRecording(){
